@@ -31,9 +31,9 @@ resource "aws_instance" "spot_instance" {
               CORS_ORIGINS=https://${var.branch_name}.${aws_amplify_app.my_amplify_app.default_domain}
               KH_FEATURE_USER_MANAGEMENT_ADMIN=admin
               KH_FEATURE_USER_MANAGEMENT_PASSWORD=${var.admin_password}
-              KH_FEATURE_USER_MANAGEMENT_AGENT_CREATOR=agent_creator
+              KH_FEATURE_USER_MANAGEMENT_AGENT_CREATOR=agentcreator
               KH_FEATURE_USER_MANAGEMENT_AGENT_CREATOR_PASSWORD=${var.agent_creator_password}
-              KH_FEATURE_USER_MANAGEMENT_CHATUSER=cloudlab
+              KH_FEATURE_USER_MANAGEMENT_CHATUSER=chatuser
               KH_FEATURE_USER_MANAGEMENT_CHATUSER_PASSWORD=${var.chatuser_password}
               USE_LIGHTRAG=false
               USE_MS_GRAPHRAG=false
