@@ -16,9 +16,17 @@ PACAT is a Retrieval-Augmented Generation (RAG) platform that allows you to crea
 
 ---
 
-## Docker Deployment Guide
+## Alternative Deployment Methods
+
+### Docker Deployment Guide
 
 If you prefer to deploy the RAG platform using Docker for local development or testing, please refer to the [Docker Deployment Guide](DOCKER.MD).
+
+---
+
+## Connecting External AI Models
+
+After deploying the platform, you can connect it to external AI models (LLMs and embedding models) such as OpenAI, Anthropic Claude, local models via Ollama, or any OpenAI-compatible API. See the [External Models Configuration Guide](EXTERNAL_MODELS.MD) for detailed instructions.
 
 ---
 
