@@ -29,7 +29,7 @@ Large Language Models are the AI "brains" that power conversations with your age
 
 1. Once logged in, look at the left sidebar
 2. Find the sub-section **Settings**
-3. In the Settings sub-section, click on **General** (represented by a document icon 📄)
+3. In the Settings sub-section, click on **General** (represented by a gear icon ⚙️)
 4. You'll see several tabs at the top - click on the **LLM** tab
 5. Click the **Create LLM** button
 
